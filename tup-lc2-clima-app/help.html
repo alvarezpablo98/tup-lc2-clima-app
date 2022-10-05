@@ -7,6 +7,7 @@
     <title>TUP LC2 - TP Integrador</title>
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/pages/common.css">
+    <link rel="stylesheet" href="css/pages/help.css">
 </head>
 
 <body>
@@ -37,7 +38,7 @@
 
         <section>
             <form action="">
-                <ul>
+                <ul class="grid-ul">
                     <li>
                         <label for="">Nombre: </label>
                         <input type="text" name="" id="">
@@ -50,10 +51,16 @@
                         <label for="">Mensaje: </label>
                         <textarea name="" id="" cols="30" rows="10"></textarea>
                     </li>
-                    <button>Limpiar</button>
-                    <button>Enviar</button>
+                    
+                    <div class="centrarlo">
+                        <button class="boton">Limpiar</button>
+                        <button class="boton">Enviar</button>
+                    </div>
                 </ul>
             </form>
+        </section>
+        <section id="section-help-result">
+            <p>Ingrese un Email Valido</p>
         </section>
     </main>
     <footer>

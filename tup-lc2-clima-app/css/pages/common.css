@@ -2,8 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
- Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
 
@@ -132,4 +131,35 @@ main p {
         padding-top: 20px;
         padding-bottom: 20px;
     }
+}
+
+.select-city {
+    padding: 7px;
+    border-radius: 5px;
+} 
+.boton {
+    padding: 9px;
+    border-radius: 5px;
+    background-color: var(--color-theme);
+    color: white;
+    border-style: none;
+}
+
+#section-weather-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+
+.card {
+    -webkit-box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
