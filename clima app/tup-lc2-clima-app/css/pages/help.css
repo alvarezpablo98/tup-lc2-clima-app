@@ -1,0 +1,43 @@
+.grid-li li {
+    display: grid;
+    margin: 10px;
+}
+
+.grid-li li input {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.grid-li li textarea {
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.grid-li button {
+    justify-items: center;
+    margin: 4px;
+}
+
+.centrar {
+    display: flex;
+    justify-content: center;
+}
+
+#section-help-result p{
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    margin: 25px auto;
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: #dc3545;
+}
+
+
+
+
+
+
+
+/* sudo docker run -d -v /home/ftpserver:/home/adminarq/web -p 20:20 -p 21:21 -p 47400-47470:47400-47470 -e FTP_USER=adminarq -e FTP_PASS=adminpass -e PASV_ADDRESS=127.0.0.1 --name ftp --restart=always bogem/ftp */

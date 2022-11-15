@@ -1,0 +1,52 @@
+.select-city {
+    padding: 7px;
+    border-radius: 5px;
+} 
+.boton {
+    padding: 9px;
+    border-radius: 5px;
+    background-color: var(--color-theme);
+    color: white;
+    border-style: none;
+}
+
+#section-weather-result {
+    padding-top: 10px;
+}
+
+
+.card {
+    -webkit-box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.75);
+    box-shadow: 2px 1px 5px 3px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    padding: .5rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: small;
+    width: 220px;
+    margin-top: 20px;
+    
+    
+
+
+    /* word-wrap: break-word; */
+
+}
+
+.card p {
+    font-size: 80%;
+}
+
+/* .centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafos-main {
+    width: 70%; 
+} */

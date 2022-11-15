@@ -1,0 +1,48 @@
+.boton {
+    padding: 9px;
+    border-radius: 5px;
+    background-color: var(--color-theme);
+    color: white;
+    border-style: none;
+}
+
+.ingresar-ciudad {
+    display: block;
+}
+
+.boton-agregar {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-city-list form input {
+    padding: 7px;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+#section-weather-result p{
+    padding: 15px;
+    border-radius: 10px;
+    width: 50%;
+    margin: 25px auto;
+    color: white;
+    text-align: center;
+    display: block;
+}
+#section-weather-result {
+    display: block;
+}
+
+.success{
+    background-color: #28a745;
+}
+.error{
+    background-color: #dc3545;
+}
+.full{
+    background-color: #ffc107;
+}
